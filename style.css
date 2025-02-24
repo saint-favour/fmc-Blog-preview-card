@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: #f5d04e;
+}
+
+/* a lot fonts right, well it was given to be used  */
+@font-face {
+  font-family: figtree-mid;
+  src: url(Figtree-Medium.ttf);
+}
+
+@font-face {
+  font-family: figtree-bold;
+  src: url(Figtree-ExtraBold.ttf);
+}
+
+/* @font-face {
+    font-family: figtree-italic;
+    src: url(Figtree-Italic-VariableFont_wght.ttf);
+} */
+
+@font-face {
+  font-family: figtree-var;
+  src: url(Figtree-VariableFont_wght.ttf);
+}
+
+.card {
+  width: 318px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  box-shadow: 6px 6px 1px 1px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* the abstract picture */
+img {
+  width: 320px;
+  margin: 0px 0px 20px -11px;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* this is the profile pic of Greg Hooper */
+/* tired to wrap the img inside the p tag but it didn't work so i used float  */
+.pic {
+  width: 40px;
+  /* border: 1px solid ; */
+  float: left;
+  padding: auto;
+  margin-top: -5px;
+}
+
+.p1 {
+  font-family: figtree-mid;
+}
+
+.p3 {
+  /* border: 1px solid ; */
+  width: 100px;
+  margin-left: 50px;
+  font-family: figtree-bold;
+}
+
+.p2 {
+  font-family: figtree-var;
+  font-weight: lighter;
+  color: #949494;
+}
+
+h2 {
+  font-family: figtree-bold;
+}
+
+/* this is the div */
+.progress {
+  width: 90px;
+  height: 25px;
+  background-color: #f0d152;
+  text-align: center;
+  font-family: figtree-bold;
+  padding-top: 6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
